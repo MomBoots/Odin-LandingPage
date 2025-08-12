@@ -16,6 +16,7 @@ body {
 
 .quote {
     background-color: #E5E7EB;
+    margin: 0;
 }
 
 .cta, 
@@ -37,11 +38,33 @@ button {
 
 .content {
     color: #1F2937;
+    display: flex;
+    flex-direction: column;
 }
 
 .ctitle {
     font-size: 36px;
     font-weight: 900;
+    text-align: center;
+}
+
+.imgsquares {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+blockquote {
+    font-style: italic;
+    text-align: left;
+    padding: 120px 200px;
+    font-size: 24px;
+}
+
+.attrib {
+    text-align: right;
+    font-weight: bold;
 }
 
 .nav ul {
