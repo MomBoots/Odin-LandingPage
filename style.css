@@ -2,6 +2,10 @@ body {
     background-color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
 }
 
 .header {
@@ -17,6 +21,19 @@ body {
 .quote {
     background-color: #E5E7EB;
     margin: 0;
+}
+
+.cta {
+    margin: 120px 200px;
+    padding: 50px 100px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta button {
+    border: 3px solid white;
+    border-radius: 10px;
 }
 
 .cta, 
@@ -123,4 +140,20 @@ button {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
+}
+
+.ctatitle {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.ctatext {
+    color: #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
