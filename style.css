@@ -83,12 +83,10 @@ blockquote {
     justify-content: space-between;
 }
 
-.hero img {
-    width: 400px;
+#heroimage {
+    min-width: 400px;
     height: 200px;
-    border-width: 5px;
-    border-color: red;
-    padding-left: 20px;
+    margin-left: 40px;
 }
 
 .hero {
